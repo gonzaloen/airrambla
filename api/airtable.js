@@ -1,8 +1,8 @@
 const fetch = require('node-fetch');
 
 module.exports = async (req, res) => {
-  const apiKey = process.env.AIRTABLE_API_KEY; // Guarda l'API Key com una variable d'entorn
-  const baseId = process.env.AIRTABLE_BASE_ID;
+  const apiKey = 'sk-proj-FylWBJdtCj0Jfp2sH4aMT3BlbkFJM8jTsXAh4MI6b5BJN1uB'; // Guarda l'API Key com una variable d'entorn
+  const baseId = 'appo7jeZiBUGhhFLQ';
   const tableName = 'tbl6xCBtl9pKaGzwm'; // El nom de la taula
 
   const url = `https://api.airtable.com/v0/${baseId}/${tableName}`;
